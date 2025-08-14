@@ -9,15 +9,18 @@ const MeetOurTeam = () => {
 
       {/* Grid Container */}
       <div className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-items-center p-10 ">
-        {doctorData.map(({ name, url, description, description2 }, index) => (
-          <MeetOurTeamCard
-            key={index}
-            url={url}
-            name={name}
-            description={description}
-            description2={description2}
-          />
-        ))}
+        {doctorData.map(
+          ({ name, url, description, description2, description3 }, index) => (
+            <MeetOurTeamCard
+              key={index}
+              url={url}
+              name={name}
+              description={description}
+              description2={description2}
+              description3={description3}
+            />
+          )
+        )}
       </div>
     </div>
   );

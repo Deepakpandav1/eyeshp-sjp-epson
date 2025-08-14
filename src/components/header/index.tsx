@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import { motion, AnimatePresence } from "framer-motion";
 import { headerMenu } from "../../utils/appUtils/constant";
+import { path } from "framer-motion/client";
 
 function Header() {
   const [showHeader, setShowHeader] = useState(true);
@@ -51,8 +52,11 @@ function Header() {
             className="header-main-div1 px-4 md:px-6 lg:px-10 py-2 flex justify-between items-center bg-white/90 backdrop-blur-sm shadow-lg fixed top-0 left-0 right-0 z-50"
           >
             {/* Logo */}
+
             <div className="logo-lft">
-              <img className="w-20 sm:w-24" src="/logo2.png" alt="logo" />
+              <Link to="/">
+                <img className="w-20 sm:w-24" src="/logo2.png" alt="logo" />
+              </Link>
             </div>
 
             {/* Navigation Menu - Visible only above 1024px */}

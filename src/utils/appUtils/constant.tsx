@@ -129,6 +129,7 @@ export const doctorData = [
     url: "/Dr_preeti.jpeg",
     description2:
       "Dr. Preeti, Founder & Chief Consultant, is a renowned Cornea, Cataract, and Refractive Surgeon dedicated to delivering advanced eye care. Specializing in corneal transplants, cataract surgery, and LASIK, she combines expertise with cutting-edge technology to restore vision and improve lives, ensuring every patient receives precise, personalized, and compassionate treatment.",
+    description3: "Every Day ⏰ (09:00 AM to 05:00 PM)",
   },
   {
     name: "Dr. Manju Kumari ",
@@ -136,6 +137,7 @@ export const doctorData = [
     url: "/Dr. MANJU KUMARI.jpg",
     description2:
       "Dr. Manju Kumari, a skilled Orbit & Oculoplasty Surgeon, specializes in advanced treatments for eye socket disorders, eyelid reconstruction, tear duct surgeries, and cosmetic eye procedures. With expertise in functional and aesthetic eye care, she delivers precise, compassionate, and technology-driven solutions to enhance both vision and appearance for patients of all ages.",
+    description3: " 1st & 3rd Sunday ⏰ (09:00 AM to 05:00 PM)",
   },
   {
     name: "Dr. Harshita",
@@ -143,6 +145,7 @@ export const doctorData = [
     url: "/Dr.Harshita.jpeg",
     description2:
       "Dr. Harshita, an expert Vitreoretinal Surgeon, specializes in diagnosing and treating complex retinal and vitreous disorders, including diabetic retinopathy, retinal detachment, and macular degeneration. With advanced surgical skills and modern technology, she provides precise, patient-focused care to preserve vision and improve eye health, ensuring the best possible outcomes for every patient.",
+    description3: " Every Friday ⏰ (09:00 AM to 05:00 PM)",
   },
   {
     name: "Dr. Mohit Mahajan ",
@@ -150,6 +153,7 @@ export const doctorData = [
     url: "/Dr Mohit Mahajan.jpeg",
     description2:
       "Dr. Mohit Mahajan, MD & DNB in General Medicine, is dedicated to providing comprehensive care for a wide range of medical conditions. With expertise in diagnosing, treating, and managing chronic and acute illnesses, he combines evidence-based medicine with a compassionate approach, ensuring personalized healthcare solutions that promote long-term wellness and a better quality of life.",
+    description3: " Monday and Thursday ⏰ (3:00 PM)",
   },
   {
     name: "Dr. Raghuraj Sharma",

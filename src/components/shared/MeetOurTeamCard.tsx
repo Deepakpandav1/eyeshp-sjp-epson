@@ -1,6 +1,12 @@
 import React from "react";
 
-function MeetOurTeamCard({ url, name, description, description2 }) {
+function MeetOurTeamCard({
+  url,
+  name,
+  description,
+  description2,
+  description3,
+}) {
   return (
     <div className="relative group w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl aspect-[5/6] border-2 border-cyan-800 rounded-3xl overflow-hidden flex items-center justify-center bg-white transition-all duration-500">
       {/* Animated Background Overlay */}
@@ -19,6 +25,11 @@ function MeetOurTeamCard({ url, name, description, description2 }) {
           <p className="font-medium text-xs sm:text-sm md:text-base lg:text-lg text-justify">
             {description2}
           </p>
+        </div>
+        <div className="text-center items-center justify-center w-full  py-1 m-0  ">
+          <h3 className="font-extrabold bg-teal-800 rounded-3xl text-white">
+            {description3}
+          </h3>
         </div>
       </div>
     </div>
