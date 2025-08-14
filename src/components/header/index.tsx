@@ -201,7 +201,7 @@ function Header() {
           <div className="w-12 h-12 bg-cyan-900 text-white rounded-lg flex items-center justify-center">
             🩺
           </div>
-          <span className="text-xs mt-1">Facility Tour</span>
+          <span className="text-xs mt-1">Doctor's</span>
         </Link>
         <Link
           to="/bookAnAppointment"

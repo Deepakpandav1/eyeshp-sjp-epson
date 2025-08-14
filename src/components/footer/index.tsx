@@ -14,13 +14,15 @@ import {
 
 function FooterSection({ title, items }) {
   return (
-    <div>
-      <h3 className="text-white font-semibold mb-3">{title}</h3>
-      <ul className="space-y-2 text-gray-300 text-sm">
+    <div className="w-full">
+      <h3 className="text-white font-semibold mb-3 text-[clamp(1rem,2vw,1.25rem)]">
+        {title}
+      </h3>
+      <ul className="space-y-2 text-gray-300 text-[clamp(0.8rem,1.5vw,1rem)]">
         {items.map((item, idx) => (
           <li key={idx}>
             <Link
-              to={item.path}
+              to={item.path || "#"}
               className="hover:text-white transition-colors duration-200"
             >
               {item.label}
@@ -34,18 +36,18 @@ function FooterSection({ title, items }) {
 
 function Footer() {
   return (
-    <footer className="bg-cyan-950 text-white pt-10 pb-4 text-sm">
-      <div className="max-w-screen-xl mx-auto px-6 grid md:grid-cols-5 gap-8">
+    <footer className="bg-cyan-950 text-white pt-10 pb-4 text-sm relative">
+      <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Left Column */}
-        <div className="col-span-2">
+        <div className="md:col-span-2 flex flex-col">
           <div className="flex items-center space-x-2 mb-4">
             <img
               src="/logo2.png"
               alt="Dr. Preeti's Bright Eye Care Hospital logo"
-              className="w-170 h-70 bg-white rounded-2xl"
+              className="w-44 h-auto bg-white rounded-2xl object-contain"
             />
           </div>
-          <p className="text-white-400 text-sm mb-4 text-justify">
+          <p className="text-gray-300 text-justify text-[clamp(0.8rem,1.5vw,1rem)]">
             "At Dr. Preeti’s Bright Eye Care Hospital, we believe that clear
             vision is not just about seeing the world—it’s about experiencing
             life to the fullest. With advanced technology, compassionate care,
@@ -67,22 +69,25 @@ function Footer() {
               items={Array.isArray(section.submenu) ? section.submenu : []}
             />
           ))}
-      </div>
-      {/* Contact Info Column - Now placed inside the grid */}
-      <div className="items-center text-center flex justify-center ml-48 mt-[-300px] mb-48">
-        <div className="space-y-3 text-sm text-cyan-900 flex bg-white p-4 rounded-4xl flex-col font-bold">
-          <h3 className="text-teal-400 text-3xl font-semibold mb-3">Contact</h3>
-          <div className="flex gap-2">
-            <FaPhoneAlt /> <span>{footerLinks.contact.phone}</span>
+
+        {/* Contact Info Column */}
+        <div className="md:col-span-1 min-w-80 flex flex-col bg-white text-[#14153B] p-4 rounded-3xl font-bold">
+          <h3 className="text-teal-400 text-2xl font-semibold mb-3 text-center">
+            Contact
+          </h3>
+          <div className="flex items-center gap-2 mb-2">
+            <FaPhoneAlt className="text-teal-600" />
+            <span className="text-sm">{footerLinks.contact.phone}</span>
           </div>
-          <div className="flex  gap-2">
-            <FaEnvelope /> <span>{footerLinks.contact.email}</span>
+          <div className="flex items-center gap-2 mb-2">
+            <FaEnvelope className="text-teal-600" />
+            <span className="text-sm">{footerLinks.contact.email}</span>
           </div>
-          <div className="flex  gap-2">
-            <FaMapMarkerAlt />
-            <div className="flex flex-col">
-              <span className="text-left">{footerLinks.contact.address}</span>
-              <span className="text-left">{footerLinks.contact.address1}</span>
+          <div className="flex items-start gap-2">
+            <FaMapMarkerAlt className="text-teal-600 mt-1" />
+            <div className="flex flex-col text-sm">
+              <span>{footerLinks.contact.address}</span>
+              <span>{footerLinks.contact.address1}</span>
             </div>
           </div>
         </div>
@@ -122,7 +127,7 @@ function Footer() {
       </div>
 
       {/* Emergency Block */}
-      <div className="fixed bottom-20 right-6 bg-white text-[#14153B] p-4 rounded-xl shadow-md border-l-4 border-teal-500 w-64 flex items-start gap-3 z-50">
+      {/* <div className="hidden md:flex bottom-22 right-6 bg-white text-[#14153B] p-4 rounded-xl shadow-md border-l-4 border-teal-500 w-64 flex items-start gap-3 z-50 fixed">
         <FaPhoneAlt className="text-teal-600 mt-1" />
         <div>
           <div className="text-sm text-teal-600 font-semibold">
@@ -132,7 +137,7 @@ function Footer() {
             {footerLinks.contact.emergency}
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }
