@@ -62,12 +62,12 @@ function Header() {
                   {menu.Path ? (
                     <Link
                       to={menu.Path}
-                      className="text-cyan-900 hover:text-teal-600 font-medium text-xl py-2 flex items-center space-x-1"
+                      className="text-cyan-900 hover:text-teal-600 font-bold text-[16px] py-2 flex items-center text-center justify-center"
                     >
                       <span>{menu.title}</span>
                     </Link>
                   ) : (
-                    <button className="text-cyan-900 hover:text-teal-600 font-medium text-xl py-2 flex items-center space-x-1">
+                    <button className="text-cyan-900 hover:text-teal-600 font-bold text-[16px] py-2 flex items-center text-center justify-center ">
                       <span>{menu.title}</span>
                       {menu.items && (
                         <svg
@@ -91,7 +91,7 @@ function Header() {
                     <div className="absolute left-0 top-full mt-0 group-hover:block hidden bg-white shadow-md border border-teal-600 rounded-xl w-80 z-50">
                       {menu.items.map((item, subIdx) => (
                         <div key={subIdx} className="relative group/item">
-                          <div className="text-cyan-900 px-4 py-2 font-medium text-lg hover:text-teal-600 flex justify-between items-center relative z-10">
+                          <div className="text-cyan-900 px-4 py-2 font-bold text-[16px] hover:text-teal-600 flex justify-between items-center relative z-10">
                             {renderItem(item)}
                             {item?.items && (
                               <svg
@@ -151,7 +151,7 @@ function Header() {
                 >
                   <img
                     className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-sm lg:w-9 lg:h-9 object-contain"
-                    src="/public/key-ico.ico"
+                    src="/key-ico.ico"
                     alt="LOGIN"
                   />
                 </Link>

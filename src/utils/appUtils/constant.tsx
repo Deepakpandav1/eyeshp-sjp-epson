@@ -126,35 +126,35 @@ export const doctorData = [
     name: "Dr. Preeti",
     description: " Founder & Chief Consultant  ",
     description1: "Cornea Cataract and Refractive Surgeon",
-    url: "/public/Dr_preeti.jpeg",
+    url: "/Dr_preeti.jpeg",
     description2:
       "Dr. Preeti, Founder & Chief Consultant, is a renowned Cornea, Cataract, and Refractive Surgeon dedicated to delivering advanced eye care. Specializing in corneal transplants, cataract surgery, and LASIK, she combines expertise with cutting-edge technology to restore vision and improve lives, ensuring every patient receives precise, personalized, and compassionate treatment.",
   },
   {
     name: "Dr. Manju Kumari ",
     description: "Orbit & Oculoplasty Surgeon",
-    url: "/public/Dr. MANJU KUMARI.jpg",
+    url: "/Dr. MANJU KUMARI.jpg",
     description2:
       "Dr. Manju Kumari, a skilled Orbit & Oculoplasty Surgeon, specializes in advanced treatments for eye socket disorders, eyelid reconstruction, tear duct surgeries, and cosmetic eye procedures. With expertise in functional and aesthetic eye care, she delivers precise, compassionate, and technology-driven solutions to enhance both vision and appearance for patients of all ages.",
   },
   {
     name: "Dr. Harshita",
     description: "Vitreoretinal Surgeon",
-    url: "/public/Dr.Harshita.jpeg",
+    url: "/Dr.Harshita.jpeg",
     description2:
       "Dr. Harshita, an expert Vitreoretinal Surgeon, specializes in diagnosing and treating complex retinal and vitreous disorders, including diabetic retinopathy, retinal detachment, and macular degeneration. With advanced surgical skills and modern technology, she provides precise, patient-focused care to preserve vision and improve eye health, ensuring the best possible outcomes for every patient.",
   },
   {
     name: "Dr. Mohit Mahajan ",
     description: " MD & DNB General Medicine",
-    url: "/public/Dr Mohit Mahajan.jpeg",
+    url: "/Dr Mohit Mahajan.jpeg",
     description2:
       "Dr. Mohit Mahajan, MD & DNB in General Medicine, is dedicated to providing comprehensive care for a wide range of medical conditions. With expertise in diagnosing, treating, and managing chronic and acute illnesses, he combines evidence-based medicine with a compassionate approach, ensuring personalized healthcare solutions that promote long-term wellness and a better quality of life.",
   },
   {
     name: "Dr. Raghuraj Sharma",
     description: " MD Anesthesia",
-    url: "/public/Dr Raghuraj shamra.jpeg",
+    url: "/Dr Raghuraj shamra.jpeg",
     description2:
       "Dr. Raghuraj Sharma, MD in Anesthesia, is an experienced anesthesiologist specializing in safe and effective anesthesia management for surgeries and medical procedures. With expertise in pain control, sedation techniques, and patient monitoring, he ensures comfort, safety, and smooth recovery, delivering the highest standards of perioperative care with precision and compassion.",
   },
@@ -296,7 +296,7 @@ export const careModelData = [
     title: "Exceptional clinical talent",
     description:
       "We bring together the brightest minds in medicine to provide exceptional care.",
-    image: "/public/Exeptional_Clinical Talent.jpg",
+    image: "/Exeptional_Clinical Talent.jpg",
     direction: "top",
   },
   {
@@ -304,21 +304,21 @@ export const careModelData = [
     title: "Trust-based compassionate care",
     description:
       "Our care model is rooted in empathy and trust for every patient.",
-    image: "/public/Trust_based.jpg",
+    image: "/Trust_based.jpg",
     direction: "left",
   },
   {
     id: 2,
     title: "Caring systems and processes",
     description: "Streamlined systems to ensure patient comfort and safety.",
-    image: "/public/Caring_Sytem.jpg",
+    image: "/Caring_Sytem.jpg",
     direction: "bottom-left",
   },
   {
     id: 3,
     title: "World-class infrastructure",
     description: "Modern, clean, and fully equipped hospital infrastructure.",
-    image: "/public/HSP_INFRA.webp",
+    image: "/HSP_INFRA.webp",
     direction: "right",
   },
   {
@@ -326,7 +326,7 @@ export const careModelData = [
     title: "Latest high-end technology",
     description:
       "Cutting-edge medical technology for accurate diagnosis and treatment.",
-    image: "/public/OT_INFRA.jpg",
+    image: "/OT_INFRA.jpg",
     direction: "bottom-right",
   },
 ];

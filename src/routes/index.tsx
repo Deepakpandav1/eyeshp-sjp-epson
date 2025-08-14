@@ -48,8 +48,11 @@ export const Landing = () => {
         `}
         </style>
       </div>
+      <div className="bg-cyan-950 py-2 text-teal-300 font-bold max-w-80 mx-auto text-center rounded-b-4xl px-2.5 border-t-white border-2 shadow-2xl">
+        Dr. Preeti's Bright Eye Care Hospital, Cornea and Phaco Center
+      </div>
       <div className="welcome-msg-slide">
-        <img src="/public/BN-2.jpg" alt="Welcome Massage" />
+        <img src="/BN-2.jpg" alt="Welcome Massage" />
         <Services />
       </div>
 

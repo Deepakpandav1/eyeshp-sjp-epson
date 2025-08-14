@@ -6,7 +6,7 @@ export const servicesDetails = [
   {
     id: "cataract",
     title: "Cataract",
-    image: "/public/services-images/cataract.png",
+    image: "/cataract.png",
     description:
       "Cataracts are a leading cause of vision loss, especially among older adults. Characterized by clouding of the eye’s natural lens, cataracts can cause blurry vision, light sensitivity, and difficulty seeing at night. Early diagnosis is essential for effective management and improved quality of life. Treatment options include prescription lenses for mild cases and advanced cataract surgery for more severe vision impairment. At our clinic, we offer comprehensive cataract evaluation and state-of-the-art treatment. Schedule a consultation with our experienced eye specialists to restore your vision and maintain long-term eye health.",
     link: "/services/cataract",
@@ -550,7 +550,7 @@ export const servicesDetails = [
   {
     id: "cornea",
     title: "Cornea",
-    image: "/public/services-images/cornea.png",
+    image: "/Cornea.png",
     description:
       "The cornea is the transparent, dome-shaped outermost layer at the front of the eye. It covers the pupil, iris, and anterior chamber. Despite being as thin as a credit card, the cornea is crucial to both protecting the eye and providing most of its focusing power. It is avascular (contains no blood vessels), but highly innervated, and gets its nutrients from tears and the aqueous humor.",
     link: "/services/cornea",
@@ -780,7 +780,7 @@ export const servicesDetails = [
   {
     id: "refractive",
     title: "Refractive Surgery",
-    image: "/public/services-images/Refractive .png",
+    image: "/Refractive .png",
     description:
       "Refractive surgery refers to a group of surgical procedures aiming to correct vision problems—such as myopia, hyperopia, astigmatism, and presbyopia—by reshaping the cornea or replacing the eye’s natural lens. The goal is to reduce or eliminate the dependence on glasses or contact lenses for clearer vision. Recent innovations have made these procedures safer, more comfortable, and highly effective.",
     link: "/services/refractiveSurgery",
@@ -1029,7 +1029,7 @@ export const servicesDetails = [
   {
     id: "dryeye",
     title: "Dry Eye Disease",
-    image: "/public/services-images/Dry eye.png",
+    image: "/Dry eye.png",
     description:
       "Dry eye disease (DED)—also called keratoconjunctivitis sicca or ocular surface disease—is a prevalent, multifactorial condition where the eyes do not produce enough quality tears, or tears evaporate too quickly. This results in a loss of tear film homeostasis, causing symptoms such as ocular discomfort, visual disturbances, and possible damage to the eye surface.",
     link: "/services/dry-eye-disease",
@@ -1331,7 +1331,7 @@ export const servicesDetails = [
   {
     id: "Oculoplastic",
     title: "Oculoplastic Surgery",
-    image: "/public/services-images/Aesthetics Studio.jpg",
+    image: "/Aesthetics Studio.jpg",
     description:
       "Oculoplasty—also called oculoplastic surgery—is a super-specialized branch of ophthalmology dedicated to diagnosing, treating, and reconstructing functional and aesthetic disorders involving the eyelids, tear ducts, orbit (eye socket), and adjacent facial structures. It blends advanced medical science with cosmetic artistry to improve vision, comfort, and appearance.",
     link: "/services/Oculoplastic",
@@ -1557,7 +1557,7 @@ export const servicesDetails = [
   {
     id: "Vitreoretinal Services",
     title: "Vitreoretinal Services",
-    image: "/public/services-images/Vitreoretinal Services.png",
+    image: "/Vitreoretinal Services.png",
     description:
       "Vitreoretinal services are specialized offerings within advanced eye hospitals that focus on the diagnosis, treatment, and surgical management of diseases affecting the retina, vitreous, and macula. These services represent a subspecialty of ophthalmology, blending cutting-edge technology, expert care, and holistic patient management to address some of the most vision-threatening eye conditions.",
     link: "/services/vitreoretinal-services",
@@ -1743,7 +1743,7 @@ export const servicesDetails = [
   {
     id: "Glaucoma",
     title: "Glaucoma",
-    image: "/public/services-images/glaucoma.png",
+    image: "/glaucoma.png",
     description:
       "Glaucoma is a group of progressive optic neuropathies that damage the optic nerve, commonly due to increased intraocular pressure (IOP). Often referred to as the 'silent thief of sight,' glaucoma frequently advances without symptoms until substantial vision loss has occurred. It is among the leading causes of irreversible blindness worldwide.",
     link: "/services/glaucoma",
@@ -1996,7 +1996,7 @@ export const servicesDetails = [
   {
     id: "Pediatric",
     title: "Pediatric Eye Care",
-    image: "/public/services-images/Pediatric.webp",
+    image: "/Pediatric.webp",
     description:
       "Pediatric eye care is a subspecialty of ophthalmology dedicated to diagnosing, treating, and preventing a wide spectrum of eye and vision problems in children, from newborns to teenagers. Clear vision in childhood is essential for educational success, social interaction, and proper development, making specialized pediatric eye services crucial for healthy, thriving children.",
     link: "/services/pediatric-eye-care",
@@ -2183,153 +2183,11 @@ export const servicesDetails = [
       </>
     ),
   },
-  {
-    id: "Oculoplasty, ORBIT & OCULAR ONCOLOGY",
-    title: "Oculoplasty, Orbit & Ocular Oncology",
-    image: "/public/services-images/Oculoplasty, ORBIT & OCULAR ONCOLOGY.png",
-    description:
-      "Oculoplasty is a highly specialized branch of ophthalmology focused on both cosmetic and reconstructive surgery around the eyes. This includes the eyelids, tear ducts, orbit (eye socket), and associated facial structures. Oculoplastic surgery is essential for restoring normal anatomy, protecting eye health, and enhancing facial aesthetics, particularly following trauma, disease, or due to age-related changes.",
-    link: "/services/oculoplasty-orbit-oncology",
-    content: (
-      <>
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          What Is Oculoplasty?
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Oculoplastic surgery is essential for restoring normal anatomy,
-          protecting eye health, and enhancing facial aesthetics. Common
-          procedures include:
-        </p>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Blepharoplasty:</strong> Surgery to remove excess skin, fat,
-            and muscle from upper or lower eyelids to improve vision or
-            appearance.
-          </li>
-          <li>
-            <strong>Ptosis Correction:</strong> Relifting droopy eyelids for
-            better vision and symmetry.
-          </li>
-          <li>
-            <strong>Entropion/Ectropion Repair:</strong> Correction of eyelids
-            that turn inward or outward to protect the eye.
-          </li>
-          <li>
-            <strong>Lacrimal Surgery:</strong> Opening blocked tear ducts to
-            treat excessive tearing.
-          </li>
-          <li>
-            <strong>Botox & Fillers:</strong> Non-surgical options for reducing
-            wrinkles and facial rejuvenation.
-          </li>
-        </ul>
 
-        <hr className="my-8 border-gray-300" />
-
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          Orbit Services
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Orbit surgery deals with diseases of the eye socket, such as tumors,
-          fractures, and thyroid eye disease. Treatments may be medical,
-          minimally invasive, or require complex reconstructive surgery.
-        </p>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Orbitotomy:</strong> Surgical removal or biopsy of orbital
-            tumors.
-          </li>
-          <li>
-            <strong>Repair of Orbital Fractures:</strong> Reconstructing broken
-            orbital bones for trauma patients.
-          </li>
-          <li>
-            <strong>Management of Thyroid Eye Disease:</strong> Treating bulging
-            eyes or double vision due to thyroid problems.
-          </li>
-          <li>
-            <strong>Orbital and Facial Bone Reconstruction:</strong> Performed
-            in complex trauma cases.
-          </li>
-        </ul>
-
-        <hr className="my-8 border-gray-300" />
-
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          Ocular Oncology
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Ocular oncology is the diagnosis and treatment of cancers involving
-          the eye, eyelids, orbit, and surrounding structures. This field ties
-          oculoplasty and orbital surgery closely with cancer management.
-        </p>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Common Ocular Tumors:</strong> Including uveal melanoma,
-            retinoblastoma, and periocular (eyelid) cancers.
-          </li>
-          <li>
-            <strong>Medical Treatments:</strong> Chemotherapy, radiation,
-            photodynamic therapy, immunotherapy, and targeted drugs.
-          </li>
-          <li>
-            <strong>Surgical Options:</strong> Excision and reconstruction of
-            tumors, enucleation (eye removal), and exenteration.
-          </li>
-          <li>
-            <strong>Multidisciplinary Care:</strong> Collaborative management
-            with oncologists, pathologists, and radiologists to ensure
-            comprehensive and personalized care.
-          </li>
-        </ul>
-
-        <hr className="my-8 border-gray-300" />
-
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          Innovations & Technology
-        </h2>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Minimally Invasive Techniques:</strong> Use of lasers,
-            radiofrequency, and microscopic equipment for safety and rapid
-            recovery.
-          </li>
-          <li>
-            <strong>Imaging:</strong> Advanced diagnostics with CT, MRI, and
-            high-resolution ultrasound for precise surgical planning.
-          </li>
-          <li>
-            <strong>Rehabilitation:</strong> Anophthalmic socket (prosthetic
-            eye) fitting and counseling for patients after extensive surgery.
-          </li>
-        </ul>
-
-        <div className="bg-cyan-50 border border-cyan-200 rounded-3xl p-8 text-center my-10 shadow-md">
-          <h3 className="text-3xl font-extrabold text-cyan-900 mb-4">
-            Why Choose Our Services?
-          </h3>
-          <p className="text-lg text-gray-800 max-w-2xl mx-auto mb-6">
-            Our department is equipped to handle everything from tear duct
-            disorders and cosmetic enhancements to the most complex cancers and
-            trauma cases affecting the eye and its surrounding tissues.
-          </p>
-          <p className="font-bold text-cyan-700 text-lg">
-            We provide a vital resource for preserving vision, functionality,
-            and confidence in patients of all ages, with an emphasis on
-            individualized and empathetic care.
-          </p>
-          <p className="font-bold text-cyan-700 text-lg">
-            For questions or appointments, contact Dr. Preeti’s Bright Eye Care
-            Hospital. Your eyesight deserves the best.
-          </p>
-        </div>
-      </>
-    ),
-  },
   {
     id: "Neuro Ophthalmology",
     title: "Neuro-Ophthalmology",
-    image: "/public/services-images/neuro ophthalmology.png",
+    image: "/neuro ophthalmology.png",
     description:
       "Neuro-ophthalmology is a subspecialty of both ophthalmology and neurology focused on the relationship between the nervous system and visual function. It addresses visual problems that originate from disorders of the brain, optic nerves, and the connections that control sight and eye movement, requiring expertise that bridges both medical fields.",
     link: "/services/neuro-ophthalmology",
@@ -2526,7 +2384,7 @@ export const servicesDetails = [
   {
     id: "Uveitis",
     title: "Uveitis",
-    image: "/public/services-images/uveitis.png",
+    image: "/uveitis.png",
     description:
       "Uveitis is a challenging, multifactorial inflammation of the uveal tract of the eye (iris, ciliary body, choroid). It is a significant cause of vision loss worldwide, with a variety of underlying causes, including autoimmune, infectious, and inflammatory processes. Timely recognition and treatment are vital to prevent irreversible visual loss.",
     link: "/services/uveitis",
@@ -2722,7 +2580,7 @@ export const servicesDetails = [
   {
     id: "Keratoconus",
     title: "Keratoconus",
-    image: "/public/services-images/keratoconus.png",
+    image: "/keratoconus.png",
     description:
       "Keratoconus is a progressive eye disorder where the normally round, dome-shaped cornea gradually thins and bulges outward into a cone shape. This irregular corneal shape distorts light as it enters the eye, leading to blurred and distorted vision. Symptoms usually present during the teenage years or early adulthood.",
     link: "/services/keratoconus",
@@ -2877,107 +2735,11 @@ export const servicesDetails = [
       </>
     ),
   },
-  {
-    id: "KIDROP",
-    title: "KIDROP: A Telemedicine Initiative",
-    image: "/public/services-images/kidrop.png",
-    description:
-      "KIDROP is a pioneering telemedicine initiative from India aimed at combating avoidable childhood blindness due to Retinopathy of Prematurity (ROP), especially in underserved and rural areas. This comprehensive program integrates cutting-edge technology, innovative training, and collaborative healthcare delivery to screen, diagnose, and treat preterm infants at risk of ROP.",
-    link: "/services/kidrop",
-    content: (
-      <>
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          What is KIDROP?
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          KIDROP stands for **Karnataka Internet Assisted Diagnosis of
-          Retinopathy of Prematurity**. It is a telemedicine program that
-          targets preterm babies in neonatal intensive care units (NICUs),
-          particularly those that lack on-site ROP specialists. The program is a
-          model of a public-private partnership coordinated by Narayana
-          Nethralaya, Bangalore, India.
-        </p>
 
-        <hr className="my-8 border-gray-300" />
-
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          How Does KIDROP Work?
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          The KIDROP program operates through a structured and technology-driven
-          process:
-        </p>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Mobile Screening:</strong> Trained non-physician field teams
-            travel to rural NICUs with a portable widefield digital retinal
-            camera (RetCam Shuttle) to scan the retinas of at-risk infants.
-          </li>
-          <li>
-            <strong>Telemedicine Platform:</strong> Retinal images are uploaded
-            securely to a tele-ROP platform. Expert ophthalmologists review
-            these images in real-time via smartphones.
-          </li>
-          <li>
-            <strong>Color-Coded Triage:</strong> A unique red, orange, green
-            color code is used to triage cases, ensuring that urgent (red) cases
-            are treated promptly.
-          </li>
-        </ul>
-
-        <hr className="my-8 border-gray-300" />
-
-        <h2 className="text-3xl font-bold text-cyan-900 mb-4">
-          Impact and Achievements
-        </h2>
-        <p className="text-lg text-gray-700 mb-6">
-          KIDROP has made a significant impact on public health and childhood
-          blindness prevention:
-        </p>
-        <ul className="list-disc list-inside ml-4 text-base text-gray-700 space-y-2">
-          <li>
-            <strong>Reach:</strong> The program covers over 80 neonatal units
-            across Karnataka.
-          </li>
-          <li>
-            <strong>Validation:</strong> The model is highly accurate, with a
-            sensitivity of 95.7% and a specificity of 93.2% in detecting ROP.
-          </li>
-          <li>
-            <strong>Preventing Blindness:</strong> It has provided sight-saving
-            treatment for over 1,000 infants with vision-threatening ROP.
-          </li>
-          <li>
-            <strong>Scalability:</strong> The KIDROP approach is a globally
-            recognized benchmark for telemedicine and is considered a template
-            for other similar programs.
-          </li>
-        </ul>
-
-        <div className="bg-cyan-50 border border-cyan-200 rounded-3xl p-8 text-center my-10 shadow-md">
-          <h3 className="text-3xl font-extrabold text-cyan-900 mb-4">
-            Why KIDROP is Important
-          </h3>
-          <p className="text-lg text-gray-800 max-w-2xl mx-auto mb-6">
-            By training non-physician technicians and leveraging telemedicine,
-            KIDROP bridges the gap in specialist care for at-risk infants in
-            rural and remote settings. This early detection and timely treatment
-            can prevent lifelong vision loss for preterm babies, having a
-            lasting impact on their quality of life.
-          </p>
-          <p className="font-bold text-cyan-700 text-lg">
-            It is a powerful example of how technology and innovation can be
-            used to combat avoidable blindness and improve healthcare access for
-            the most vulnerable populations.
-          </p>
-        </div>
-      </>
-    ),
-  },
   {
     id: "REVERSING DIABETES CLINIC",
     title: "Reversing Diabetes Clinic",
-    image: "/public/services-images/REVERSING DIABETES CLINIC.webp",
+    image: "/REVERSING DIABETES CLINIC.webp",
     description:
       "Reversing Diabetes Clinics are specialized, multidisciplinary centers dedicated to not only managing diabetes but also aiming for its reversal or remission through science-backed methods and holistic patient care. The goal is to achieve sustained normal blood sugar levels (HbA1c less than 6.5%) without the need for diabetes medication or insulin.",
     link: "/services/reversing-diabetes-clinic",
@@ -3085,7 +2847,7 @@ export const servicesDetails = [
   {
     id: "General Ophthalmology",
     title: "General Ophthalmology",
-    image: "/public/services-images/General+Ophthalmology.jpg",
+    image: "/General+Ophthalmology.jpg",
     description:
       "General ophthalmology is the foundational branch of eye care services in any advanced eye hospital. It encompasses the diagnosis, treatment, management, and prevention of a broad spectrum of eye diseases and vision problems affecting people of all ages. This specialty combines medical, surgical, and optical services to ensure optimal eye health.",
     link: "/services/general-ophthalmology",
@@ -3259,7 +3021,7 @@ export const servicesDetails = [
   {
     id: "Cornea Transplant",
     title: "Cornea Transplant",
-    image: "/public/services-images/cornea-transplant.jpg",
+    image: "/cornea-transplant.jpg",
     description:
       "Cornea transplant, also known as keratoplasty, is a surgical procedure that replaces a damaged or diseased cornea with healthy donor tissue. It can restore vision, reduce pain, and improve the appearance of the cornea.",
     link: "/services/cornea-transplant",
@@ -3466,7 +3228,7 @@ export const servicesDetails = [
   {
     id: "ContactLensClinic",
     title: "Contact Lens Clinic",
-    image: "/public/services-images/unnamed.jpg",
+    image: "/unnamed.jpg",
     description:
       "A visit to a contact lens clinic is a comprehensive process aimed at finding the perfect lens for your eyes, ensuring comfort, safety, and optimal vision.",
     link: "/services/contact-lens-clinic",
@@ -3590,7 +3352,7 @@ export const servicesDetails = [
   {
     id: "MyopiaControlClinic",
     title: "Myopia Control Clinic",
-    image: "/public/services-images/MyopiaControlClinic.jpg",
+    image: "/MyopiaControlClinic.jpg",
     description:
       "A specialized clinic dedicated to slowing the progression of myopia in children and young adults, reducing long-term vision risks through personalized treatments.",
     link: "/services/myopia-control-clinic",
@@ -3706,7 +3468,7 @@ export const servicesDetails = [
   {
     id: "ProstheticShellClinic",
     title: "Prosthetic Shell Clinic",
-    image: "/public/services-images/PPS.jpg",
+    image: "/services-images/PPS.jpg",
     description:
       "A specialized clinic providing custom-made ocular prosthetics, specifically scleral shells, to restore a natural eye appearance and boost patient confidence.",
     link: "/services/prosthetic-shell-clinic",
