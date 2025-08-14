@@ -195,6 +195,15 @@ function Header() {
           <span className="text-xs mt-1">Facility Tour</span>
         </Link>
         <Link
+          to="/meetourteam"
+          className="flex flex-col items-center text-cyan-900 hover:text-teal-600"
+        >
+          <div className="w-12 h-12 bg-cyan-900 text-white rounded-lg flex items-center justify-center">
+            🩺
+          </div>
+          <span className="text-xs mt-1">Facility Tour</span>
+        </Link>
+        <Link
           to="/bookAnAppointment"
           className="flex flex-col items-center text-cyan-900 hover:text-teal-600"
         >
