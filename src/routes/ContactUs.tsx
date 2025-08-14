@@ -66,14 +66,15 @@ const ContactUs: React.FC = () => {
         <h1 className="text-2xl font-bold text-teal-800 text-center mb-6">
           Contact Us
         </h1>
-        <div className="flex gap-4 justify-center m-2.5">
-          <div className="border-2 rounded-4xl bg-cyan-900 text-white font-bold text-lg p-5 ">
-            +916239507877
+        <div className="flex flex-col sm:flex-row gap-4 justify-center m-2.5">
+          <div className="border-2 rounded-4xl bg-cyan-900 text-white font-bold text-lg p-5 text-center break-words">
+            +91 62395 07877
           </div>
-          <div className="border-2 rounded-4xl bg-cyan-900 text-white font-bold text-lg p-5">
+          <div className="border-2 rounded-4xl bg-cyan-900 text-white font-bold text-lg p-5 text-center break-words">
             drpreetisbrighteyecare@gmail.com
           </div>
         </div>
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             name="name"

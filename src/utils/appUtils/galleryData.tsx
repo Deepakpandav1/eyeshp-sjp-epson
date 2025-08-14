@@ -73,19 +73,25 @@ export const galleryItems: GalleryItem[] = [
     image: "/OPTOMETRIST.jpg",
     title: "Optometrist Room",
     description: "Equipped with modern lab equipment for accurate reports.",
-    dept: "Diagnostics",
+    dept: "Optometrist Room",
   },
   {
     image: "/OPTOMETRIST1.jpg",
     title: "Optometrist Room",
     description: "Equipped with modern lab equipment for accurate reports.",
-    dept: "Diagnostics",
+    dept: "Optometrist Room",
   },
   {
     image: "/LAB.jpg",
-    title: " Diagnostics Lab",
+    title: "Lab Facilities",
     description: "Equipped with modern lab equipment for accurate reports.",
-    dept: "Diagnostics",
+    dept: "Lab Facilities",
+  },
+  {
+    image: "/lab2.png",
+    title: "Lab Facilities",
+    description: "Equipped with modern lab equipment for accurate reports.",
+    dept: "Lab Facilities",
   },
   {
     image: "/DOCTOR ROOM.jpg",
@@ -99,6 +105,7 @@ export const departments: string[] = [
   "Reception",
   "Operation Theater",
   "Pharmacy",
-
   "Diagnostics",
+  "Optometrist Room",
+  "Lab Facilities",
 ];
