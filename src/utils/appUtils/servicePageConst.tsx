@@ -1743,7 +1743,7 @@ export const servicesDetails = [
   {
     id: "Glaucoma",
     title: "Glaucoma",
-    image: "/glaucoma.png",
+    image: "/Glaucoma.png",
     description:
       "Glaucoma is a group of progressive optic neuropathies that damage the optic nerve, commonly due to increased intraocular pressure (IOP). Often referred to as the 'silent thief of sight,' glaucoma frequently advances without symptoms until substantial vision loss has occurred. It is among the leading causes of irreversible blindness worldwide.",
     link: "/services/glaucoma",
@@ -2384,7 +2384,7 @@ export const servicesDetails = [
   {
     id: "Uveitis",
     title: "Uveitis",
-    image: "/uveitis.png",
+    image: "/Uveitis.png",
     description:
       "Uveitis is a challenging, multifactorial inflammation of the uveal tract of the eye (iris, ciliary body, choroid). It is a significant cause of vision loss worldwide, with a variety of underlying causes, including autoimmune, infectious, and inflammatory processes. Timely recognition and treatment are vital to prevent irreversible visual loss.",
     link: "/services/uveitis",
@@ -2580,7 +2580,7 @@ export const servicesDetails = [
   {
     id: "Keratoconus",
     title: "Keratoconus",
-    image: "/keratoconus.png",
+    image: "/Keratoconus.png",
     description:
       "Keratoconus is a progressive eye disorder where the normally round, dome-shaped cornea gradually thins and bulges outward into a cone shape. This irregular corneal shape distorts light as it enters the eye, leading to blurred and distorted vision. Symptoms usually present during the teenage years or early adulthood.",
     link: "/services/keratoconus",
@@ -3021,7 +3021,7 @@ export const servicesDetails = [
   {
     id: "Cornea Transplant",
     title: "Cornea Transplant",
-    image: "/cornea-transplant.jpg",
+    image: "/Cornea-Transplant.jpg",
     description:
       "Cornea transplant, also known as keratoplasty, is a surgical procedure that replaces a damaged or diseased cornea with healthy donor tissue. It can restore vision, reduce pain, and improve the appearance of the cornea.",
     link: "/services/cornea-transplant",
@@ -3468,7 +3468,7 @@ export const servicesDetails = [
   {
     id: "ProstheticShellClinic",
     title: "Prosthetic Shell Clinic",
-    image: "/services-images/PPS.jpg",
+    image: "/PPS.jpg",
     description:
       "A specialized clinic providing custom-made ocular prosthetics, specifically scleral shells, to restore a natural eye appearance and boost patient confidence.",
     link: "/services/prosthetic-shell-clinic",

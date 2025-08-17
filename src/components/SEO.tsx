@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet";
 const SEO = ({
   title = "Dr. Preeti's Bright Eye Care Hospital | Best Eye Hospital in Pathankot",
   description = "India's leading eye hospital & Pathankot's first HOTA-approved center for corneal transplantation. Trusted eye specialists for cataract, retina, LASIK, and eye surgeries.",
-  keywords = "Best eye hospital in Pathankot, HOTA approved eye hospital, corneal transplantation Pathankot, cataract surgery Pathankot, LASIK Pathankot, retina specialist Punjab, Dr Preeti's Bright Eye Care Hospital",
-  url = "https://drpreetibrighteyecare.com",
-  image = "https://drpreetibrighteyecare.com/public/og-image.png",
+  keywords = "Best eye hospital in Pathankot, HOTA approved eye hospital, corneal transplantation Pathankot, cataract surgery Pathankot, LASIK Pathankot, retina specialist Punjab, Dr Preeti's Bright Eye Care Hospital, eye hospital Pathankot, eye hospital Punjab, eye hospital Himachal, best eye doctor J&K, cataract surgery North India, LASIK Punjab, retina specialist Himachal, corneal transplant Jammu, Dr. Preeti eye clinic, eye specialist in North India",
+  url = "https://drpreetisbrighteyecare.com",
+  image = "https://drpreetisbrighteyecare.com/public/logo2.png",
 }) => {
   return (
     <Helmet>
