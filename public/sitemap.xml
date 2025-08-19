@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home -->
+  
   <url>
     <loc>https://drpreetisbrighteyecare.com/</loc>
     <priority>1.0</priority>
   </url>
 
-  <!-- About -->
+  
   <url>
-    <loc>https://drpreetisbrighteyecare.com/</loc>
+    <loc>https://drpreetisbrighteyecare.com/aboutUs</loc>
     <priority>0.9</priority>
   </url>
 
-  <!-- Services -->
+  
   <url>
     <loc>https://drpreetisbrighteyecare.com/services</loc>
     <priority>0.9</priority>
   </url>
 
-  <!-- Contact -->
+
   <url>
     <loc>https://drpreetisbrighteyecare.com/services/cataract</loc>
     <priority>0.8</priority>
   </url>
 
-  <!-- Route-based Service Paths -->
+
   <url>
     <loc>https://drpreetisbrighteyecare.com/services/cornea</loc>
     <priority>0.8</priority>
@@ -104,7 +104,7 @@
   </url>
   <url>
     <loc>https://drpreetisbrighteyecare.com/contactus</loc>
-    <priority>1</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drpreetisbrighteyecare.com/login</loc>

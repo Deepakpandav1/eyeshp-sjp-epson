@@ -33,10 +33,11 @@ export const headerMenu = [
   },
   {
     title: "About-Us",
+
     items: [
       { label: "Terms of Services", Path: "/termsofservices" },
       { label: "Privacy Policy", Path: "/privacyPolicy" },
-      { label: "FAQs" },
+      { label: "About-Us", path: "/AboutUs" },
     ],
   },
 ];

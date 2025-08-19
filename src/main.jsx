@@ -1,5 +1,7 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
+import { HelmetProvider } from "react-helmet-async";
+
 import {
   Outlet,
   RouterProvider,
@@ -24,6 +26,8 @@ import BookAnAppointment from "./routes/bookAnAppointment";
 import FacilityTour from "./routes/facilityTour";
 import Login from "./routes/login";
 import ContactUs from "./routes/ContactUs";
+import aboutUs from "./routes/AboutUs";
+import AboutUs from "./routes/AboutUs";
 
 // 🌐 Root layout (includes Header/Footer)
 const rootRoute = createRootRoute({
@@ -90,6 +94,12 @@ const ContactUsRoute = createRoute({
   component: ContactUs,
 });
 
+const AboutUsRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/AboutUs",
+  component: AboutUs,
+});
+
 const routeTree = rootRoute.addChildren([
   indexRoute,
   meetOurTeamRoute,
@@ -101,6 +111,7 @@ const routeTree = rootRoute.addChildren([
   facilityTourRoute,
   loginRoute,
   ContactUsRoute,
+  AboutUsRoute,
 ]);
 
 const router = createRouter({
@@ -117,7 +128,9 @@ if (rootElement && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <StrictMode>
-      <RouterProvider router={router} />
+      <HelmetProvider>
+        <RouterProvider router={router} />
+      </HelmetProvider>
     </StrictMode>
   );
 }
