@@ -1,4 +1,4 @@
-import { StrictMode, useEffect, useState } from "react";
+import { StrictMode, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -8,7 +8,6 @@ import {
   createRootRoute,
   createRoute,
   createRouter,
-  useRouter,
 } from "@tanstack/react-router";
 // import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
@@ -29,51 +28,8 @@ import Login from "./routes/login";
 import ContactUs from "./routes/ContactUs";
 import AboutUs from "./routes/AboutUs";
 
-/** 🔔 Fullscreen 404 popup */
-function NotFoundOverlay() {
-  const [open, setOpen] = useState(true);
-  const router = useRouter();
-
-  useEffect(() => {
-    const t = setTimeout(() => {
-      setOpen(false);
-      if (window.history.length > 1) {
-        router.history.go(-1);
-      } else {
-        router.navigate({ to: "/" });
-      }
-    }, 3000);
-    return () => clearTimeout(t);
-  }, [router]);
-
-  if (!open) return null;
-
-  return (
-    <div className=" inset-0 z-[9999] flex items-center justify-center bg-[url('/bg-100-vh.jpg')] bg-fixed py-40 min-h-screen pb-6">
-      <div className="rounded-2xl bg-white p-4 shadow-xl max-w-lg w-[92%] text-center">
-        <img
-          src="/logo2.png"
-          alt="Dr. Preeti's Bright Eye Care Hospital-Logo"
-        />
-        <p className="text-red-600 font-semibold text-2xl">
-          The page you tried to open doesn’t exist.
-        </p>
-        <p className="text-sm opacity-70 mt-1">Please check the URL.</p>
-      </div>
-    </div>
-  );
-}
-
-/** 🌳 Root route */
+// 🌐 Root layout (includes Header/Footer)
 const rootRoute = createRootRoute({
-  component: () => <Outlet />,
-  notFoundComponent: NotFoundOverlay,
-});
-
-/** 🧩 Layout with Header/Footer */
-const appLayoutRoute = createRoute({
-  getParentRoute: () => rootRoute,
-  id: "app-layout",
   component: () => (
     <div className="flex flex-1 flex-col h-[100vh] w-full">
       <Header />
@@ -84,65 +40,63 @@ const appLayoutRoute = createRoute({
   ),
 });
 
-/** --- Pages --- */
 const indexRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/",
   component: Landing,
 });
 const meetOurTeamRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/meetourteam",
   component: MeetOurTeam,
 });
 const servicesRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/services",
   component: ServicesLayout,
 });
 const serviceRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/services/$service",
   component: Service,
 });
 const termsOfServiceRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/termsofservices",
   component: TermsOfService,
 });
 const privacyPolicyRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/privacypolicy",
   component: PrivacyPolicy,
 });
 const bookAnAppointmentRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/bookanappointment",
   component: BookAnAppointment,
 });
 const facilityTourRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/facilityTour",
   component: FacilityTour,
 });
 const loginRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/login",
   component: Login,
 });
 const ContactUsRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/ContactUs",
   component: ContactUs,
 });
 const AboutUsRoute = createRoute({
-  getParentRoute: () => appLayoutRoute,
+  getParentRoute: () => rootRoute,
   path: "/AboutUs",
   component: AboutUs,
 });
 
-/** Build route tree */
-appLayoutRoute.addChildren([
+const routeTree = rootRoute.addChildren([
   indexRoute,
   meetOurTeamRoute,
   servicesRoute,
@@ -156,8 +110,6 @@ appLayoutRoute.addChildren([
   AboutUsRoute,
 ]);
 
-const routeTree = rootRoute.addChildren([appLayoutRoute]);
-
 const router = createRouter({
   routeTree,
   context: {},
@@ -165,7 +117,6 @@ const router = createRouter({
   scrollRestoration: true,
   defaultStructuralSharing: true,
   defaultPreloadStaleTime: 0,
-  notFoundMode: "root",
 });
 
 /** 📊 Google Analytics Listener */
