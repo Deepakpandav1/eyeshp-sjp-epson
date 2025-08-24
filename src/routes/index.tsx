@@ -13,7 +13,17 @@ import SEO from "../components/SEO";
 export const Landing = () => {
   return (
     <>
-      <SEO title={"home"} description={"xyz"} keywords={"doctor"} />
+      <SEO
+        title={
+          "Dr. Preeti's Bright Eye Care Hospital - Eye Specialist in Pathankot"
+        }
+        description={
+          "Dr. Preeti’s Bright Eye Care Hospital in Pathankot offers advanced eye treatments including cataract surgery, LASIK, retina care & corneal transplant."
+        }
+        keywords={
+          "Eye hospital in Pathankot, Eye specialist Pathankot, Best eye hospital Pathankot"
+        }
+      />
       <div className=" bg-[url('/public/bg-100-vh.jpg')] bg-fixed   landing-page-div mt-18">
         {/* slider div */}
         <div className="bg-cyan-950 py-2 overflow-hidden whitespace-nowrap">
