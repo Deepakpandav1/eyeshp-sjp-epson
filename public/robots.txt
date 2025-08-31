@@ -1,3 +1,16 @@
+# Allow all search engines to crawl the site
 User-agent: *
 Allow: /
+
+# Disallow common junk or sensitive areas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+Disallow: /server/
+Disallow: /private/
+Disallow: /*?*          # avoid crawling duplicate query params
+Disallow: /*.json$      # block JSON files
+Disallow: /*.xml$       # except sitemap.xml
+
+# Important: allow sitemap
 Sitemap: https://drpreetisbrighteyecare.com/sitemap.xml
